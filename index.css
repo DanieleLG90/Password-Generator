@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#pssgener {
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(#1F2937, #0c4a6e);
+    margin: auto;
+    margin-top: 80px;
+    padding: 45px;
+    border: 5px solid #F3F4F6;
+    border-radius: 15px;
+    font-family: 'Roboto Mono', monospace;
+    box-shadow: 0 0 10px #1F2937
+}
+.tltl{
+    color: #F9FAFB;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 90px;
+    
+}
+.greenText{
+    color: #34D399;
+}
+.pswgparag{
+    margin-bottom: 55px;
+    color: #D1D5DB;
+}
+#psw-btn{
+    padding: 8px 17px;
+    background-color: #34D399;
+    border: none;
+    border-radius: 5px;
+    color: #F9FAFB;
+    
+}
+.output{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-top: 2px solid #1F2937;
+    padding-top: 25px;
+}
+#random-psw1, #random-psw2{
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    background-color: #1F2937;
+    padding:10px 40px;
+    border-radius: 5px;
+    color:#34D399
+}
